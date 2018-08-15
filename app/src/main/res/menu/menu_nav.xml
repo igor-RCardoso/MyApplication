@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_search"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search"
+        />
+
+    <item
+        android:id="@+id/nav_sale"
+        android:title="Promoção"
+        android:icon="@drawable/ic_flash"
+        />
+
+    <item
+        android:id="@+id/nav_discover"
+        android:title="Descobrir"
+        android:icon="@drawable/ic_directions"
+        />
+
+    <item
+        android:id="@+id/nav_requests"
+        android:title="Pedidos"
+        android:icon="@drawable/ic_speaker"
+        />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Perfil"
+        android:icon="@drawable/ic_account"
+        />
+
+
+
+</menu>

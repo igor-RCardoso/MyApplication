@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navigation_bar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/layout_navigation_bar2">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="5dp"
+            android:layout_width="match_parent"
+            android:background="#66FFFFFF"
+            android:orientation="horizontal"
+            android:id="@+id/linear_layout_1"
+            android:gravity="top"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_1"
+                android:visibility="invisible"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainYellow"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_2"
+                android:visibility="invisible"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainRed"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_3"
+                android:visibility="invisible"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainGreen"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_4"
+                android:visibility="invisible"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainBlue"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_5"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="5dp"
+            android:layout_width="match_parent"
+            android:background="#80FFFFFF"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:id="@+id/linear_layout_2"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_1_2"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainYellow"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_2_2"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainRed"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_3_2"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainGreen"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_4_2"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorMainBlue"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:id="@+id/relative_layout_5_2"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:design="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_bot"
+        design:menu="@menu/menu_nav"
+        android:background="#FFFFFF">
+
+    </android.support.design.widget.BottomNavigationView>
+</LinearLayout>
